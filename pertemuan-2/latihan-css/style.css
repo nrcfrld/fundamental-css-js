@@ -1,0 +1,41 @@
+body {
+    background-image: url('./gambar.jpg');
+    background-size: cover;
+}
+
+/* Tag Selectr */
+h1 {
+    color: #17ffcd;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+/* Class Selector */
+.my-heading {
+    color: red;
+}
+
+.font-size-besar {
+    font-size: 20px;
+}
+
+h1.my-heading#primary-heading {
+    color: pink;
+}
+
+.my-images {
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    object-fit: cover;
+}
+
+/* ID Selector */
+#primary-heading {
+    font-size: 30px;
+    color: purple;
+}

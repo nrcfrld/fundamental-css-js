@@ -1,0 +1,22 @@
+.kotak {
+  background-color: red;
+  width: 50px;
+}
+
+.kotak.navigasi {
+  font-family: "Rancho", cursive;
+}
+
+.container {
+  background-color: yellow;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+
+  /* Ini justify untuk main axis (sumbu x untuk yang flex directionnya row, tapi kalau column berubah jadi sumbu y) */
+  justify-content: space-between;
+
+  /* Ini untuk posisi cros axis (sumbu y untuk yang flex directionnya row, tapi kalau column berubah jadi sumbu x)  */
+  align-items: start;
+  
+}
